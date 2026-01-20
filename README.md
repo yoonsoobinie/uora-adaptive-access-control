@@ -38,11 +38,8 @@ then applies **sigmoid-normalized sensitivity** to adaptively update α and OCW 
 (Exact numbers depend on the simulation configuration.)
 
 ## Requirements
-- MATLAB **R2016b+** (uses local functions at the end of a script)
+- MATLAB **R2022b or later** (uses local functions at the end of a script)
 
 ## How to run
 1) Open MATLAB in the repository folder  
-2) Run:
-
-```matlab
-run("uora_sweep_origin.m")
+2) Run: ("uora_sweep_origin.m")
