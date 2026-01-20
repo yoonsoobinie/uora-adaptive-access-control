@@ -42,4 +42,4 @@ then applies **sigmoid-normalized sensitivity** to adaptively update α and OCW 
 
 ## How to run
 1) Open MATLAB in the repository folder  
-2) Run: ("uora_sweep_origin.m")
+2) Run: `run_uora_adaptive_access.m`
