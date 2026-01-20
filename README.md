@@ -1,14 +1,13 @@
 # uora-adaptive-access-control
-MATLAB simulator for adaptive access control in IEEE 802.11ax UORA using per-station transmission history.
-# Adaptive Access Control for IEEE 802.11ax UORA (MATLAB)
 
+MATLAB simulator for adaptive access control in IEEE 802.11ax UORA using per-station transmission history.
+
+## Overview
 MATLAB simulation code for **adaptive access control** in IEEE 802.11ax UORA,
 based on **per-station transmission history** (local observations only).
 
 **Paper title:** Adaptive Access Control for IEEE 802.11ax UORA Based on Per-Station Transmission History  
 **Authors:** Soobin Yoon, Eun-Chan Park (Dongguk University)
-
----
 
 ## What this repo contains
 - A UORA sweep simulator that measures:
@@ -21,8 +20,6 @@ based on **per-station transmission history** (local observations only).
   - access threshold parameter (alpha, α)
   - OFDMA contention window (OCW)
 
----
-
 ## Key idea (high level)
 Standard BEB-based OCW update can be insensitive to fast congestion changes, leading to either:
 - more collisions, or
@@ -30,8 +27,6 @@ Standard BEB-based OCW update can be insensitive to fast congestion changes, lea
 
 This approach estimates (per station) collision probability and waiting/idle probability from a sliding window,
 then applies **sigmoid-normalized sensitivity** to adaptively update α and OCW without using global statistics.
-
----
 
 ## Reported results (from the paper)
 - Average throughput improvement vs standard UORA: **~15.1%**
@@ -42,12 +37,8 @@ then applies **sigmoid-normalized sensitivity** to adaptively update α and OCW 
 
 (Exact numbers depend on the simulation configuration.)
 
----
-
 ## Requirements
 - MATLAB **R2016b+** (uses local functions at the end of a script)
-
----
 
 ## How to run
 1) Open MATLAB in the repository folder  
