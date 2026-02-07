@@ -7,7 +7,9 @@ MATLAB simulation code for **adaptive access control** in IEEE 802.11ax UORA,
 based on **per-station transmission history** (local observations only).
 
 **Paper title:** Adaptive Access Control for IEEE 802.11ax UORA Based on Per-Station Transmission History  
-**Authors:** Soobin Yoon, Eun-Chan Park (Dongguk University)
+**Authors:** Soobin Yoon, Eun-Chan Park (Dongguk University)  
+**Award:** 🏆 Excellent Paper Award,  
+2026 KICS Winter General Conference (Undergraduate Paper Competition)
 
 ## What this repo contains
 - A UORA sweep simulator that measures:
